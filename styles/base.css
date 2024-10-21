@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 70px;
 }
 
 .sinallogo img {
@@ -19,7 +20,7 @@ body {
 .nav-links {
   display: flex;
   gap: 2.5rem;
-  font-size: larger;
+  font-size: 1.3rem;
 }
 
 .nav-links a {
@@ -36,4 +37,44 @@ body {
   width: 50px;
   height: 50px;
   margin-right: 20px;
+}
+
+.about-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.about-title h2 {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.about-title h1 {
+  margin-top: -0.5rem;
+  color: #6d7d8d;
+  font-size: 45px;
+}
+
+.about-description {
+  display: flex;
+  flex-direction: row;
+  background-color: #e3ecf1;
+}
+
+.about {
+  font-family: "Swis721 BlkOul Bt", "Times New Roman", Times, serif;
+  padding-left: 2rem;
+  font-size: 70px;
+}
+
+.about-me {
+  margin: -2rem 0 0 240px;
+}
+
+.about-paragraph {
+  padding: 1.8rem 1.5rem 0 1.5rem;
+  font-size: 25px;
 }
