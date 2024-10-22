@@ -83,8 +83,7 @@ body {
 }
 
 .my-projects,
-.contact-main-container,
-.my-skills {
+.contact-main-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -118,6 +117,11 @@ body {
   height: 215px;
   object-fit: cover;
   border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.projects-type img:hover {
+  transform: scale(1.1);
 }
 
 .projects-type h3 {
@@ -144,10 +148,13 @@ body {
   transition: ease 300ms;
 }
 
-.skills-list-container {
+.my-skills {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
   background-color: #e3ecf1;
+  margin-top: 2rem;
 }
 
 .skills-list {
